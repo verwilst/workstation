@@ -41,7 +41,7 @@
         },
         {
           "type": "terraform",
-          "template": "\ue69a {{ .WorkspaceName }} "
+          "template": "{{ if ne \"default\" .WorkspaceName }}\ue69a {{ .WorkspaceName }} {{ end }}"
         },
         {
           "style": "plain",
