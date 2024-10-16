@@ -9,7 +9,6 @@
   "blocks": [
     {
       "alignment": "left",
-      "newline": true,
       "segments": [
         {
           "foreground": "p:pink",
